@@ -2,6 +2,6 @@
 
 Repoitório Front-end
 
-Desenvolvimento HTMl & CSS
+Desenvolvimento HTML & CSS
 
 Veja o projeto em https://kelvyngs.github.io/Kelv/
