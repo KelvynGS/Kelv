@@ -55,7 +55,23 @@
 </p>
 <p>
 <label for="numero">Numero: </label>
-<input type="number" id="numero" minlength="0" maxlength="14">
+<input type="number" id="numero" min="0" max="14">
+</p>
+<p>
+    <label for="estado">Estado: </label>
+    <select id="estado">
+        <optgroup label="Região sudeste">
+<option value="RJ">Rio de Janeiro</option>
+<option value="SP">São Paulo</option>
+<option value="MG">Minas Gerais</option>
+<option value="ES">Espirito Santo</option>
+        </optgroup>
+        <optgroup label="Região sul">
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </optgroup>
+    </select>
 </p>
 </fieldset>
     </form>
